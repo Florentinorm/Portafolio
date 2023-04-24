@@ -313,6 +313,7 @@ section {
   transition: all 0.4s ease-in-out;
   width: 60%;
 }
+/* TÉCNICAS */
 .about-stats .progress-bars .progress-bar .progress-con .progress .java {
   width: 60%;
 }
@@ -331,6 +332,7 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
   width: 75%;
 }
+/* FRAMEWORKS */
 .about-stats .progress-bars .progress-bar .progress-con .progress .boot {
   width: 80%;
 }
@@ -340,6 +342,7 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .laravel {
   width: 55%;
 }
+/* GESTORES DE BASES DE DATOS */
 .about-stats .progress-bars .progress-bar .progress-con .progress .sql {
   width: 60%;
 }
@@ -349,6 +352,20 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .mongo {
   width: 70%;
 }
+/* METODOLOGÍAS */
+.about-stats .progress-bars .progress-bar .progress-con .progress .agil {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .scrum {
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .devobs {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .kanban {
+  width: 80%;
+}
+/* MÁS HERRAMIENTAS */
 .about-stats .progress-bars .progress-bar .progress-con .progress .git {
   width: 75%;
 }
