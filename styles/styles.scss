@@ -655,6 +655,71 @@ section {
     }
 }
 
+// Seccion de recomendaciones
+.recom {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Cambié a 1 columna */
+    grid-gap: 2rem;
+    margin-top: 3rem;
+  
+    .reco {
+      display: grid; /* Agregué esta línea */
+      grid-template-columns: 40% 60%; /* Dividimos en dos columnas */
+      position: relative;
+      background-color: var(--color-grey-5);
+      border-radius: 5px;
+      box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s ease-in-out;
+  
+      &:hover {
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+        transform: translateY(-5px);
+        transition: all 0.4s ease-in-out;
+  
+        img {
+          filter: grayscale(0);
+          transform: scale(1.2);
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
+        }
+      }
+  
+      img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        filter: grayscale(100%);
+        transition: all 0.4s ease-in-out;
+      }
+  
+      .recom-text {
+        margin-top: -7px;
+        padding: 1.1rem;
+        border-top: 8px solid var(--color-secondary);
+        grid-column: 2; /* Ubicamos en la segunda columna */
+  
+        h4 {
+          font-size: 1.5rem;
+          margin-bottom: 0.7rem;
+          transition: all 0.4s ease-in-out;
+          cursor: pointer;
+  
+          &:hover {
+            color: var(--color-secondary);
+          }
+        }
+  
+        p {
+          color: var(--color-grey-2);
+          line-height: 2rem;
+          padding-bottom: 1rem;
+        }
+      }
+    }
+  }
+  
+  
 
 //Contact section
 .contact-content-con {
