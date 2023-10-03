@@ -314,6 +314,9 @@ section {
   width: 60%;
 }
 /* TÉCNICAS */
+.about-stats .progress-bars .progress-bar .progress-con .progress .shell {
+  width: 90%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .java {
   width: 60%;
 }
@@ -343,6 +346,9 @@ section {
   width: 55%;
 }
 /* GESTORES DE BASES DE DATOS */
+.about-stats .progress-bars .progress-bar .progress-con .progress .sqlDev {
+  width: 80%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .sql {
   width: 60%;
 }
@@ -366,8 +372,11 @@ section {
   width: 80%;
 }
 /* MÁS HERRAMIENTAS */
+.about-stats .progress-bars .progress-bar .progress-con .progress .linux {
+  width: 80%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .git {
-  width: 75%;
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .selenium {
   width: 85%;
