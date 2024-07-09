@@ -326,6 +326,9 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .c {
   width: 60%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .cobol {
+  width: 50%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
   width: 60%;
 }
@@ -344,6 +347,9 @@ section {
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .laravel {
   width: 55%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .smart {
+  width: 50%;
 }
 /* GESTORES DE BASES DE DATOS */
 .about-stats .progress-bars .progress-bar .progress-con .progress .sqlDev {
@@ -376,6 +382,9 @@ section {
   width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .git {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .postman {
   width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .selenium {
