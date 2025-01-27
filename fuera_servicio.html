@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen con Botón de Regresar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f4;
+        }
+        .image-container {
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .btn-back {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #6a11cb;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn-back:hover {
+            background-color: #2575fc;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="img/fuera_de_servicio.png" alt="Imagen de ejemplo">
+    </div>
+    <button class="btn-back" onclick="window.location.href='index.html'">Regresar</button>
+</body>
+</html>
